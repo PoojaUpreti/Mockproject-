@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-03-26T12:40:30.368+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Bootcamp mock-project/settings/wcm/templates/blog-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2022-03-26T11:42:55.151+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2022-03-26T12:31:42.856+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-26T12:31:42.856+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <headerpage
+                    jcr:created="{Date}2022-03-26T12:39:39.648+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-26T12:39:39.648+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/headerpage"/>
+            </responsivegrid>
+            <responsivegrid_1251642222
+                jcr:created="{Date}2022-03-26T12:31:56.260+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-26T12:31:56.260+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="9"/>
+                </cq:responsive>
+            </responsivegrid_1251642222>
+            <responsivegrid_1834748054
+                jcr:created="{Date}2022-03-26T12:32:07.170+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-26T12:32:07.170+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="7"/>
+                </cq:responsive>
+            </responsivegrid_1834748054>
+            <responsivegrid_1223310784
+                jcr:created="{Date}2022-03-26T12:32:21.611+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-26T12:32:21.611+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="5"/>
+                </cq:responsive>
+            </responsivegrid_1223310784>
+            <responsivegrid_912570211
+                jcr:created="{Date}2022-03-26T12:32:25.904+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-26T12:32:25.904+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="7"/>
+                </cq:responsive>
+            </responsivegrid_912570211>
+            <responsivegrid_98717
+                jcr:created="{Date}2022-03-26T12:35:09.881+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-26T12:35:09.881+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="7"
+                        width="5"/>
+                </cq:responsive>
+            </responsivegrid_98717>
+            <footerpage
+                jcr:created="{Date}2022-03-26T12:40:30.366+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-26T12:40:30.366+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/footerpage"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

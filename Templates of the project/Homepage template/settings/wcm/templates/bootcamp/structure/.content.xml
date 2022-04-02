@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-04-01T10:15:52.719+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Bootcamp mock-project/settings/wcm/templates/bootcamp"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid_170610664
+                jcr:created="{Date}2022-03-31T00:27:16.314+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-31T00:27:16.314+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <headerpage
+                    jcr:created="{Date}2022-03-31T00:31:40.239+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-01T10:12:21.922+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/headerpage"
+                    link="https://timesheet.tothenew.com/"/>
+            </responsivegrid_170610664>
+            <carousel
+                jcr:created="{Date}2022-03-20T14:04:35.736+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-20T14:04:35.736+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/carousel"/>
+            <responsivegrid_2097869577
+                jcr:created="{Date}2022-03-20T13:57:30.022+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-20T13:57:30.022+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid_2097869577>
+            <listofblogs
+                jcr:created="{Date}2022-03-20T14:04:49.725+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-01T10:07:10.476+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/Listofblogs"
+                link="https://timesheet.tothenew.com/"/>
+            <responsivegrid_860278171
+                jcr:created="{Date}2022-03-20T13:59:01.928+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-20T13:59:01.928+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid_860278171>
+            <footerpage
+                jcr:created="{Date}2022-03-20T14:05:04.832+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-01T10:15:52.717+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/footerpage"
+                link="https://timesheet.tothenew.com/"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
